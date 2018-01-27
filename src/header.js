@@ -1,23 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
 
 export const Header = () => {
-    return(
+  return (
     <header>
-    <div className="logo">
-
+      <div className="logo">
         <a href="index.html">
-             <img className="graphiclogo" src="../img/logo.png" alt="logo" />
+          <img className="graphiclogo" src="../img/logo.png" alt="logo" />
         </a>
         <div className="logo_txt">React for GoodBus</div>
-    </div>
+      </div>
 
-    <nav>
+      <nav>
         <div className="topnav" id="myTopnav">
-        <a href="index.html">Home</a>
-        <a href="index.html">Home</a>
-        <a href="index.html">Home</a>
+          <a href="index.html">Home</a>
+          <a href="index.html">Home</a>
+          <a href="index.html">Home</a>
         </div>
-    </nav>
+      </nav>
     </header>
-    )};
+  );
+};
