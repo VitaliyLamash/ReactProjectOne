@@ -1,87 +1,51 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
-a {
+body{
+  width: 100%;
+  height: 100%;
+  color: #333;
+  background: #f7f7f7;
+  font-size: 1em;
+  line-height: 135%;
+}
+a{
   text-decoration: none;
+  color: #6699CC;
+  transition: all.6s ease;
 }
-li {
+a:hover{
   text-decoration: none;
-}
-body {
-  font-family: "Joti One", cursive;
+  color: goldenrod;
+  transition: all.6s ease;
 }
 
-.logo {
-  background: #000;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.logo_txt {
-  color: aliceblue;
-  padding: 40px 0px 0 10px;
-  text-align: center;
-  font-size: 25px;
-}
-.graphiclogo {
-  width: 150px;
-  padding: 5px;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-nav {
-  margin: auto;
-  width: 600px;
-  border-bottom: 1px solid black;
-}
-.topnav {
-  background: rgb(233, 200, 70);
-  font-size: 14px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-.content {
-  padding-top: 10px;
-  margin: 0 auto;
-  width: 600px;
-}
-.content ul {
+/* Menu */
+
+.menuStyle ul li{
   list-style-type: none;
-}
-.topnav a {
-  color: #000;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 15px;
-}
-.topnav a:hover {
-  border-bottom: 2px solid #000;
+  border: 1px solid;
 }
 
-footer {
-  width: 100%;
-  height: auto;
-  background: black;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 25px;
+
+
+
+nav{
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  justify-content: center;
+  background: #ec9e9e;
 }
 
-footer a {
-  color: white;
-  font-size: 14px;
-  margin-left: 10px;
+
+header, footer {
+  width: 98%;
+  background-color: antiquewhite;
+  min-height: 50px;
+  float: left;
+
 }
-footer nav a:hover {
-  border-bottom: 2px solid white;
-}
-.social img {
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-.social img:hover {
-  background: #494949;
-  border-radius: 50%;
-}
+
