@@ -20,7 +20,9 @@ export default class TodoList extends React.Component {
               <button onClick={() => onTodoCheck(item.id)}>
                 CHECK
               </button>
+              <div> </div>
             </div>
+          
           ))
         }
       </div>

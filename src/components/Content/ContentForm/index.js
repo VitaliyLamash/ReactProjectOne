@@ -1,24 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-const ContentForm = ({
-  onChange,
-  onSubmit,
-  inputValue,
-}) => (
+const ContentForm = ({ onChange, onSubmit, inputValue }) => (
   <form onSubmit={onSubmit}>
-    <input
-      value={inputValue}
-      onChange={onChange}
-    />
-    <button type="submit">Submit</button>  
+    <input value={inputValue} onChange={onChange} />
+    <button type="submit">Submit</button>
   </form>
 );
 
 ContentForm.propTypes = {
   onChange: PropTypes.func,
   onSubmit: PropTypes.func,
-  inputValue: PropTypes.string,
+  inputValue: PropTypes.string
 };
 
 export default ContentForm;

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 
-import logo from '../../logo.svg';
 import './index.css';
 
-import Header from '../../components/Header/';
-import Footer from '../../components/Footer/';
 import Content from '../../components/Content/';
 import TodoList from '../../components/TodoList/';
 
@@ -14,7 +11,6 @@ class ToDo extends Component {
     this.state = {
       inputValue: '',
       todoList: [],
-      type: 'all',
     };
   }
 
